@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@types/quill": "^2.0.14",
+    "@types/react": "^18.3.7",
+    "@types/react-dom": "^18.3.0",
+    "quill": "^2.0.2",
+    "react-quill": "^2.0.0",
+    "react-rte": "^0.16.5"
+  }
+}
