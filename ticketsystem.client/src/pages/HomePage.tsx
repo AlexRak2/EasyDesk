@@ -41,7 +41,6 @@ export default function HomePage() {
           const res: Ticket[] = data;
         
           setTickets(res);
-          console.log(res);
           
           countTicketsDueToday(res);
           countTicketsOverdue(res);
@@ -172,7 +171,7 @@ export default function HomePage() {
 
     useEffect(() => {
         getTicket();
-      });
+      }, []);
 
 
       if (isAuthLoading) {
